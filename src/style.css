@@ -3,8 +3,8 @@
 body{
     background: rgb(8, 134, 8);
      position:relative ;
-      top: 50px;
-      left: 450px;
+      top: 100px;
+      left: 500px;
  
     
 }
@@ -14,6 +14,21 @@ body{
 .cardval {
   font-size: 100px;
   position: relative;
-  top: 50px;
-  left: 50px;
+  top:-20px;
+  left: 110px;
+}
+
+.top-suits{
+    font-size: 100px;
+  position: relative;
+  top: -15px;
+  left: 5px;
+  margin-top: -20px;
+}
+
+.bottom-suits{
+  font-size:  100px;
+  position: relative;
+  right:5px;
+   margin-top:-25px;
 }
