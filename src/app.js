@@ -25,5 +25,14 @@ document.querySelector(".bottom-suits").classList.add("text-danger");
 document.querySelector(".top-suits").innerHTML = randomSuits;
 document.querySelector(".bottom-suits").innerHTML = randomSuits;
 document.querySelector(".cardval").innerHTML = randomCardval;
+ 
 
+
+ const refreshButton = document.getElementById('next card');
+
+        // Add a click event listener to the button
+        refreshButton.addEventListener('click', function() {
+            location.reload(); // Refresh the page
+
+ });
 };
